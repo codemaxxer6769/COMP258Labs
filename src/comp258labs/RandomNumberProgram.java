@@ -101,7 +101,7 @@ public class RandomNumberProgram extends ConsoleFramework {
             System.out.printf("%d at position %d was replaced with %d.%n",
                                        target, (index + 1), replacement);
         } else {
-            System.out.printf("%d was not found. No replacement made.%n, target");
+            System.out.printf("%d was not found. No replacement made.%n", target);
         }
     }
 }
